@@ -10,7 +10,7 @@
 7. *y_vars=None*, 
 8. *kind='scatter'*, *{‘scatter’, ‘kde’, ‘hist’, ‘reg’}* 그래프 종류
 9. *diag_kind='auto'*, *{‘auto’, ‘hist’, ‘kde’, None}* 대각선에 있는 그래프의 종류
-   1. kde =[Kernel Density Estimation]()
+   1. kde =[Kernel Density Estimation](https://github.com/LeeJeaHyuk/python/blob/master/Theory/statistic/Kernel%20Density%20Estimation)
    2. 관측된 데이터들의 분포로부터 원래 변수의 (확률) 분포 특성을 추정하고자 하는 것이 density estimation(밀도추정)이다.
 10. *markers=None*, 점 모양 'o', 'x', '+', 'D'등등으로 지정
 11. *height=2.5*, 그래프의 크기 조절
