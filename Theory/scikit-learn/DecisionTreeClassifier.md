@@ -11,6 +11,7 @@
    1. `Splitter`: 노드를 분할하기 위한 기준값 설정법. Best와 Random 중에서 선택할 수 있으며 기본값은 Best이다.
 3.  *max_depth=None*, 
    1. `Max Depth`: 모델(나무) 성장 제한 기준. 몇 단계(깊이) 까지 성장시킬지 지정
+   2. 트리가 깊어질수록 더 잘게 분류를 시키므로 일반적으론 정확도가 높아진다
 4. *min_samples_split=2*, 
    1. `Min Samples Splits`: 노드 분할에 필요한 최소 표본 수. 이 숫자가 매우 작으면 과적합, 반대의 경우 과소적합이 발생
 5. *min_samples_leaf=1*,
