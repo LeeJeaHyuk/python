@@ -16,8 +16,10 @@
    1. `Min Samples Splits`: 노드 분할에 필요한 최소 표본 수. 이 숫자가 매우 작으면 과적합, 반대의 경우 과소적합이 발생
 5. *min_samples_leaf* = int or float, default=1
    1. `Min Samples Leaf`: 잎사귀(말단) 노드가 되기 위한 최소 표본 수. 지정 숫자보다 노드에 더 많은 표본이 있을 경우 노드 분할 가능성이 있음
+   2. 모델에 대한 규제가 커진다 = 과대적합 해결
 6. *min_weight_fraction_leaf* = float, default=0.0
    1. `Min Weight Fraction Leaf`: 잎사귀(말단) 노드에 필요한 가중치 합계의 최소 가중치 비율
+   2. 모델에 대한 규제가 커진다 = 과대적합 해결
 7. *max_features* = int, float or {“auto”, “sqrt”, “log2”}, default=None
    1. `Max Features`: 최적 분할(best split)시 고려하는 변수의 개수. 입력 누락시 훈련에 사용하는 변수 개수로 자동 설정
 8. *random_state=None*, 
